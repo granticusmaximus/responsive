@@ -13,18 +13,17 @@
 </head>
 <body>
 
-<ul class="topnav" id="myTopnav">
-  <li><a class="active" href="index.html"><i class="fa fa-home"></i>Home</a></li>
-  <li><a href="#">Services</a></li>
-  <li><a href="#">Contact</a></li>
-  <li><a href="#">About</a></li>
-  <li><a href="#">Offers</a></li>
-  <li><a href="#">Testimonials</a></li>
-  <li><a href="#">Links</a></li>
-  <li class="icon">
-    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
-  </li>
-</ul>
+  <input id="toggle" type="checkbox">
+  <label class="toggle-container" for="toggle">
+        <span class="button button-toggle"></span>
+    </label>
+
+  <nav class="nav">
+    <a class="nav-item" href="">About</a>
+    <a class="nav-item" href="">Contact Us</a>
+    <a class="nav-item" href="">Our Work</a>
+    <a class="nav-item" href="">Get Involved</a>
+  </nav>
 
 <div class="wrapper"> 
 <!--Navi-->
@@ -98,18 +97,6 @@
 		<div class="clear"></div>
 
 
-
-
-			<script>
-				function myFunction() {
-   				var x = document.getElementById("myTopnav");
-    				if (x.className === "topnav") {
-       					x.className += " responsive";
-    				} else {
-        				x.className = "topnav";
-        				}
-        			}
-			</script>
 </div>
 </div>
 			<div class="footer">
