@@ -25,26 +25,6 @@ img {
     height: auto;
 }
 
-$items: 4;
-$transition-duration: 0.5s;
-$transition-delay: 0.05s;
-$background: #be5e84;
-$background2:	#8e5582;
-$background3: #EC7263;
-$background4: #66487e;
-$background5: #494484;
-$item: #EC7263;
-$desc: #C06162;
-
-* {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  margin: 0;
-}
-
 
 
 #toggle {
