@@ -26,6 +26,11 @@ img {
 }
 
 
+$items: 4;
+$transition-duration: 0.5s;
+$transition-delay: 0.05s;
+$item: #EC7263;
+$desc: #C06162;
 
 #toggle {
   display: none;
