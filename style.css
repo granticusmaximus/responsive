@@ -1,0 +1,229 @@
+h1,h2,h3,h4 {
+    color: #0099cc;
+}
+
+html {
+  overflow-y: scroll; height:100%
+}
+
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;
+}
+
+header {
+    height: 350px;
+    background-size: 100% auto !important;
+    background-image: url("file:///Users/grantwatson/Desktop/Keith%20McDonald%20Plumbing/img/header.jpg");
+    background-repeat: no-repeat;
+    opacity: 1;
+    background-position: center;
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul.topnav {
+  list-style-type: none;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0099cc;
+  width: 100%;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.active {
+    background-color: #005875;
+}
+
+ul.topnav li a:hover {background-color: #555;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 95%;
+    resize: none;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: block;
+    overflow: hidden !important;
+    height:100%;
+    height:auto !important;
+    background-color: #DBDBDE;
+    margin-right: auto;
+    margin-left: auto;
+    padding:40px;
+    max-width: 950px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+
+body {
+    margin: 0%;
+    background-color: #FFF;
+    font-family: 'Oswald', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.company {
+
+    width: 100%;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    display: block;
+}
+
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    width: 100%;
+}
+
+.fieldset{
+    border: 2px solid #0099cc;
+    border-radius: 10px;
+    padding: 50px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #DBDBDE;
+    border-bottom: 2px solid #0099cc;
+}
+
+input[type=text]:hover {
+    background-color: #0099cc;
+}
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: #0099cc;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input:focus {
+    background-color: #0099cc;
+}
+
+/* XS Portrait */
+@media (max-width: 480px) {
+
+
+}
+
+a {
+    color: #E4E4E4;
+    text-decoration: none;
+}
